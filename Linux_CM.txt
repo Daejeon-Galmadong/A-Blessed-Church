@@ -1,0 +1,89 @@
+알고싶은 명령어는 구글에서 영어로 검색. ex) create directory in linux
+
+ctrl+alt+t - 터미널 열기
+
+한영변환키 - Shift+Space
+
+명령어 -파라미터
+d 디렉토리(폴더)
+- 파일
+파일 앞에 . 이 붙어있으면 감춰진 파일
+위치변경시 cd 후 가고자하는 위치의 몇글자를 친 후 [ex)bokCH = bok] Tab를 누르면 자동완성됌
+리눅스는 실패시만 메세지가 뜸 성공시 아무 메세지도 안 뜸
+터미널에서 nano 입력시 파일편집기가 열림
+htop 은 윈도우 실행관리자 같은것 (현재 다운이 안되는 상태)
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+sudo apt-get update; - 어플 업데이트
+
+apt - 플레이스토어 같은것
+	-cache search (어플 찾기)	
+	-get (선택)
+ 	-install 어플명 (설치)
+	-update 어플명
+	-upgrade 어플명
+	-remove 어플명 (삭제)
+
+명령어 --help 명령어 도움말
+
+man 명령어 - 명령어 메뉴얼 (도움말보다 상세한 내용)
+	 /내용 (내용 검색) (n 누르면 검색 내용 스킵)
+	 q (매뉴얼 나가기)
+
+sudo -super user do or root user (관리자권한) [말 안들을때 수도(sudo)로 내려치면 말잘들음 ㅋㅋ]
+
+pwd - 현재 위치 확인
+
+ls - List (리스트 확인)
+	-a (--all 모두) (숨겨진 파일 포함 모든 파일 보기)
+	-l (상세 보기)
+	-S (--sort 정렬) (큰 파일부터 정렬하여 보기)
+	-al (숨겨진 파일 포함 모든 파일 상세 보기)
+	-alS (숨겨진 파일 포함 모든 파일을 큰 파일부터 정렬하여 상세보기)
+
+clear - 명령어 청소
+
+mkdir - make directory (디렉토리 생성) (mkdir dirname = 디렉토리 이름)
+	-p (--parents 부모) [다수 디렉토리생성, ex) mkdir -p dir1/dir2/dir3...]
+
+touch - make file
+
+cd - changed (위치 바꾸기)
+	- cd .. (상위 위치로) (상위경로)
+	- cd /home/kimyj (지정 위치로) (절대경로)
+
+rm - remove (삭제)
+	- rm -r (--recursive 반복되는) (위험요소 삭제) (반복 삭제)
+
+cp - copy (파일복사)
+	ex) cp (복사 할 /파일위치 및 파/일이름) (목적지 /파일위치 및 /파일이름)
+	ex) 예를 들어 /dev/test 라는 파일을 /var/www/html/test로 복사하기 위해서는?	
+	ex) cp /dev/test1 /var/www/html/test1
+	* = 현재있는 위치의 모든 디렉토리
+
+mv - move (파일이동)
+	ex) mv  (이동 할 /파일위치 및 /파일이름) (목적지 /파일위치 및 /파일이름)
+	ex) 예를 들어 /dev/test 라는 파일을 /var/www/html/test로 옮기기 위해서는?	
+	ex) mv /dev/test1 /var/www/html/test1
+
+	  (파일명 변경시) mv file1 file2
+
+wget - 이미지 다운 ex) wget optinon URL
+	-O 파일명 (--output-document) 다운받은 파일 이름설정
+
+systemctl - 시스템컨트롤
+	-stop
+	-start
+	-status
+	-restart
+	-enable
+ex) systemctl status apache2
+
+curl localhost:80
+
+hostname - 웹상 이름
+	-i (나) 127.0.1.1 = localhost
+
+
+
