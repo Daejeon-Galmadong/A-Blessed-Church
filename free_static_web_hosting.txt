@@ -1,0 +1,5 @@
+1. www.bitballoon.com
+2. neocities.org
+3. amazon S3
+4. Google Cloud Storage
+5. Azure Blob
